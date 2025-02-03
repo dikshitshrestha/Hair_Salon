@@ -1,7 +1,7 @@
 import logo from "./logo.png";
 import barber from "./barber.mp4";
 
-export default function Hero() {
+export default function Home() {
   return (
     <div className="h-full pr-[10px] pl-[10px]">
       <div className=" h-[70px] flex items-center justify-between pr-[50px] pl-[50px] pt-[20px]">
@@ -18,7 +18,7 @@ export default function Hero() {
         </div>
         <div className="w-[150px] flex justify-between">
           <button>Sign in</button>
-          <div className="border-2 border-gray-700 p-1 pr-2 pl-3 w-[90px] rounded-xl">
+          <div className="border-2 border-gray-700 p-1 pr-2 pl-3 w-[90px] rounded-xl bg-black text-white">
             <button>Buy Now</button>
           </div>
         </div>

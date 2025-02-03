@@ -1,10 +1,12 @@
-import React from 'react'
-import Hero from './Hero'
+import React from "react";
+import Home from "./Home";
+import Login from "./Login";
+import Services from "./Services";
 
 export default function App() {
   return (
     <div>
-      <Hero></Hero>
+      <Services />
     </div>
-  )
+  );
 }
