@@ -1,28 +1,10 @@
 import logo from "./logo.png";
 import photo from "./loginbg.jpeg";
+import Navbar from "./Navbar";
 
 export default function Login() {
   return (
     <div className="h-full pr-[10px] pl-[10px]">
-      <div className=" h-[70px] flex items-center justify-between pr-[50px] pl-[50px] pt-[20px]">
-        <div className="flex items-center justify-between w-[155px]">
-          <img src={logo} alt="photo" className="h-[40px]" />
-          <div>Masters&Mane</div>
-        </div>
-        <div className="flex justify-between w-1/3">
-          <a href="#">Home</a>
-          <a href="#">Services</a>
-          <a href="#">Shop</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact</a>
-        </div>
-        <div className="w-[150px] flex justify-between">
-          <button>Sign in</button>
-          <div className="border-2 border-gray-700 p-1 pr-2 pl-3 w-[90px] rounded-xl bg-black text-white">
-            <button>Buy Now</button>
-          </div>
-        </div>
-      </div>
       <div
         className="h-[660px] rounded-t-lg flex justify-center items-center bg-cover"
         style={{ backgroundImage: `url(${photo})` }}
