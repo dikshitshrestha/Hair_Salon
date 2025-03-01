@@ -16,8 +16,8 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
-          <h1 className="text-4xl font-bold text-9xl">Masters & Mane</h1>
-          <p className="text-lg mt-2 text-6xl">Where Style Meets Perfection</p>
+          <h1 className="font-bold text-9xl">Masters & Mane</h1>
+          <p className="mt-2 text-6xl">Where Style Meets Perfection</p>
         </div>
       </div>
     </div>
