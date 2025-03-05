@@ -5,12 +5,12 @@ import Navbar from "./Navbar";
 
 export default function Contact() {
   return (
-    <div className="h-full pr-[10px] pl-[10px]">
+    <div className="h-full px-[10px]">
       <div
-        className="h-screen rounded-t-lg bg-cover flex justify-center items-center"
+        className="h-full rounded-t-lg bg-cover flex justify-center items-center"
         style={{ backgroundImage: `url(${photo})` }}
       >
-        <div className="bg-white/30 backdrop-blur-md lg:h-[300px] lg:w-[300px] p-[20px] text-black rounded-xl">
+        <div className="bg-white/30 backdrop-blur-md lg:h-[300px] lg:w-[300px] p-[10px] text-black rounded-xl">
           <div className="text-center font-bold mt-[5px]">Contact form</div>
           <div>
             <div className="mt-[10px] ml-[17px]">
