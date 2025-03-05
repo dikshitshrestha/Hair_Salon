@@ -6,7 +6,7 @@ export default function Login() {
   return (
     <div className="h-full pr-[10px] pl-[10px]">
       <div
-        className="h-[660px] rounded-t-lg flex justify-center items-center bg-cover"
+        className="lg:h-[660px] h-[500px] rounded-t-lg flex justify-center items-center bg-cover"
         style={{ backgroundImage: `url(${photo})` }}
       >
         <div className="bg-white/30 backdrop-blur-md h-[300px] w-[300px] p-[20px] text-black rounded-xl">

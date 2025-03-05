@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div className="h-full pr-[10px] pl-[10px]">
+    <div className="h-full px-[10px]">
       <div className="relative h-screen rounded-t-lg overflow-hidden">
         <video
           autoPlay
@@ -16,8 +16,8 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
-          <h1 className="font-bold text-9xl">Masters & Mane</h1>
-          <p className="mt-2 text-6xl">Where Style Meets Perfection</p>
+          <h1 className="font-bold text-4xl">Masters & Mane</h1>
+          <p className="mt-2 text-xl">Where Style Meets Perfection</p>
         </div>
       </div>
     </div>

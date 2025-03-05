@@ -7,26 +7,26 @@ import Navbar from "./Navbar";
 
 export default function Shop() {
   return (
-    <div className="h-full pr-[10px] pl-[10px]">
-      <div className="bg-gray-100 h-[91vh] rounded-t-lg flex justify-center items-center">
-        <div className="h-2/3 p-[50px] flex justify-evenly items-center">
-          <div className="mr-[20px] w-1/4 text-center">
+    <div className="h-full px-[10px]">
+      <div className="bg-gray-100 h-full rounded-t-lg flex justify-center items-center">
+        <div className="px-16 py-16 flex-col flex justify-evenly items-center text-xs gap-5">
+          <div className="text-center">
             <div className="flex items-center bg-white">
               <img src={product} alt="hairspray" />
             </div>
-            <div>Hairspray: 30$</div>
+            <div className="mt-3">Hairspray: 30$</div>
           </div>
-          <div className="mr-[20px] w-1/4 text-center">
+          <div className="text-center">
             <div className="flex items-center bg-white">
               <img src={product2} alt="hairspray" />
             </div>
-            <div>Hair wax: 10$</div>
+            <div className="mt-3">Hair wax: 10$</div>
           </div>
-          <div className="mr-[20px] w-1/4 text-center">
+          <div className="text-center">
             <div className="flex items-center bg-white">
               <img src={product3} alt="hairspray" />
             </div>
-            <div>Shampoo, Serums and conditioner combo: 50$</div>
+            <h1 className="mt-2">Shampoo, Serums and conditioner combo: 50$</h1>
           </div>
         </div>
       </div>

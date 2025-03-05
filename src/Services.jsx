@@ -8,15 +8,15 @@ import Navbar from "./Navbar";
 
 export default function Services() {
   return (
-    <div className="h-full">
+    <div className="h-full px-[10px]">
       <div className="bg-gray-100 h-screen">
         <div
-          className="h-[600px] bg-cover flex justify-center items-center rounded-t-lg"
+          className="lg:h-[600px] bg-cover flex justify-center items-center rounded-t-lg"
           style={{ backgroundImage: `url(${photo})` }}
         >
-          <div className="text-white text-center w-[900px]">
-            <div className="text-[100px] font-[bold]">Our services</div>
-            <div className="text-[20px] font-[bold]">
+          <div className="text-white w-full py-7 text-center">
+            <div className="lg:text-[100px] font-[bold]">Our services</div>
+            <div className="lg:text-[20px] font-[bold]">
               At Masters & Mane, we take pride in offering top-tier grooming
               services tailored to enhance your style and confidence. Our
               skilled barbers specialize in precision haircuts, beard trims, hot
@@ -27,18 +27,18 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="h-[500px] flex pt-[50px] pb-[50px] bg-gray-100">
-          <div className="h-[400px] w-1/2 flex justify-center items-center">
+        <div className="lg:h-[500px] flex flex-col-reverse py-[20px] bg-gray-100">
+          <div className="py-4 w-full flex justify-center items-center">
             <div>
-              <div className="text-[80px] font-[bold] text-yellow-800 flex justify-center items-center">
+              <div className="lg:text-[80px] font-[bold] text-yellow-800 flex justify-center items-center">
                 Our Story
               </div>
-              <div className="text-[50px] font-[bold] flex justify-center items-center">
+              <div className="lg:text-[50px] font-[bold] flex justify-center items-center">
                 We Love hairs!
               </div>
-              <div className="flex justify-center items-center mt-[20px]">
-                <div className="bg-yellow-700 text-white h-[40px] w-[180px] flex justify-center items-center rounded-lg">
-                  <a href="#" className="text-[14px]">
+              <div className="flex justify-center items-center mt-[10px]">
+                <div className="bg-yellow-700 text-white lg:h-[40px] lg:w-[180px] flex justify-center items-center rounded-md">
+                  <a href="#" className="text-xs py-1 px-1">
                     MAKE AN APPOINTMENT
                   </a>
                 </div>
@@ -46,16 +46,16 @@ export default function Services() {
             </div>
           </div>
           <div
-            className="bg-green-200 h-[400px] w-1/2 bg-cover"
+            className="bg-green-200 h-44 lg:h-[400px] w-full bg-cover"
             style={{ backgroundImage: `url(${photo2})` }}
           ></div>
         </div>
-        <div className="h-[600px] flex p-[50px] bg-black">
+        <div className="lg:h-[600px] flex flex-col py-5 lg:p-[50px] bg-black">
           <div
-            className="h-[500px] bg-white w-1/3 bg-cover bg-center rounded-lg"
+            className="lg:h-[500px] h-56 w-full bg-white bg-cover bg-center lg:rounded-lg"
             style={{ backgroundImage: `url(${photo3})` }}
           ></div>
-          <div className="h-[500px] text-white w-1/3 text-center p-[50px] text-[20px] font-[bold] flex justify-center items-center">
+          <div className="lg:h-[500px] text-white text-center p-[40px] text-sm font-[bold] flex justify-center items-center">
             <div>
               <h1 className="text-[30px] text-yellow-700">
                 Haircuts & Styling
@@ -74,7 +74,7 @@ export default function Services() {
             </div>
           </div>
           <div
-            className="h-[500px] bg-white w-1/3 bg-cover bg-center rounded-lg"
+            className="lg:h-[500px] h-56 bg-white w-full bg-cover bg-center lg:rounded-lg"
             style={{ backgroundImage: `url(${photo4})` }}
           ></div>
         </div>
