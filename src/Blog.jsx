@@ -7,11 +7,11 @@ export default function Contact() {
   return (
     <div className="h-full px-[10px]">
       <div
-        className="h-full rounded-t-lg bg-cover bg-center py-20 px-4 flex items-center"
+        className="h-full md:h-screen rounded-t-lg bg-cover bg-center py-20 px-4 flex items-center"
         style={{ backgroundImage: `url(${photo})` }}
       >
         <div>
-          <div className="text-white font-[bold] text-xl text-center">
+          <div className="text-white font-[bold] text-xl lg:text-2xl text-center">
             The Art of Grooming: Elevate Your Style with Masters & Mane
           </div>
           <div className="text-white font-[bold] text-sm text-justify mt-5">

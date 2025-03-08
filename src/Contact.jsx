@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <div className="h-full px-[10px]">
       <div
-        className="h-full rounded-t-lg bg-cover flex justify-center items-center py-14"
+        className="h-[500px] md:h-screen rounded-t-lg bg-cover flex justify-center items-center py-14"
         style={{ backgroundImage: `url(${photo})` }}
       >
         <div className="bg-white/30 backdrop-blur-md lg:h-[300px] lg:w-[300px] text-black rounded-xl py-3 px-5">

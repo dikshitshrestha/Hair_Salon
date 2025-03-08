@@ -8,10 +8,10 @@ import Navbar from "./Navbar";
 
 export default function Services() {
   return (
-    <div className="h-full px-[10px]">
+    <div className="h-full ">
       <div className="bg-gray-100 h-screen">
         <div
-          className="lg:h-[600px] bg-cover flex justify-center items-center rounded-t-lg"
+          className="lg:h-[700px] md:h-[300px] bg-cover flex justify-center items-center rounded-t-lg lg:px-10"
           style={{ backgroundImage: `url(${photo})` }}
         >
           <div className="text-white w-full py-7 text-center">
@@ -27,7 +27,7 @@ export default function Services() {
             </div>
           </div>
         </div>
-        <div className="lg:h-[500px] flex flex-col-reverse py-[20px] bg-gray-100">
+        <div className="lg:h-full flex flex-col-reverse py-[20px] bg-gray-100">
           <div className="py-4 w-full flex justify-center items-center">
             <div>
               <div className="lg:text-[80px] font-[bold] text-yellow-800 flex justify-center items-center">
@@ -46,23 +46,23 @@ export default function Services() {
             </div>
           </div>
           <div
-            className="bg-green-200 h-44 lg:h-[400px] w-full bg-cover"
+            className="bg-green-200 h-44 md:h-[300px] lg:h-[400px] w-full bg-cover"
             style={{ backgroundImage: `url(${photo2})` }}
           ></div>
         </div>
-        <div className="lg:h-[600px] flex flex-col py-5 lg:p-[50px] bg-black">
+        <div className="lg:h-[600px] flex flex-col lg:flex-row py-5 lg:p-[50px] bg-black">
           <div
-            className="lg:h-[500px] h-56 w-full bg-white bg-cover bg-center lg:rounded-lg"
+            className="lg:h-[500px] md:h-[300px] h-56 lg:w-1/3 w-full bg-white bg-cover bg-center lg:rounded-lg"
             style={{ backgroundImage: `url(${photo3})` }}
           ></div>
-          <div className="lg:h-[500px] text-white text-center p-[40px] text-sm font-[bold] flex justify-center items-center">
+          <div className="lg:h-[500px] lg:w-1/3 text-white text-center py-[40px] text-sm font-[bold] flex justify-center items-center">
             <div>
               <h1 className="text-[30px] text-yellow-700">
                 Haircuts & Styling
               </h1>
-              <div className="text-left list-none mt-[15px]">
+              <div className="text-left lg:flex lg:flex-col lg:gap-3 list-none mt-[15px]">
                 <li>
-                  Classic Haircut & Style..............................$35
+                  Classic Haircut & Style...............................$35
                 </li>
                 <li>Men’s Fade & Taper Cut............................$40</li>
                 <li>Beard Trim & Shape-Up............................$20</li>
@@ -74,7 +74,7 @@ export default function Services() {
             </div>
           </div>
           <div
-            className="lg:h-[500px] h-56 bg-white w-full bg-cover bg-center lg:rounded-lg"
+            className="lg:h-[500px] md:h-[300px] h-56 lg:w-1/3 bg-white w-full bg-cover bg-center lg:rounded-lg"
             style={{ backgroundImage: `url(${photo4})` }}
           ></div>
         </div>
